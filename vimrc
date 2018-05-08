@@ -51,6 +51,7 @@ call plug#end()
 
 set t_Co=256
 set relativenumber
+set number
 set smartindent
 set tabstop=4
 set shiftwidth=4
@@ -64,4 +65,5 @@ endif
 colorscheme solarized 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts=1
-set guifont=Roboto\ Mono\ for\ Powerline:h12
+"set guifont=Roboto\ Mono\ for\ Powerline:h12
+set guifont=Noto\ Mono\ for\ Powerline:h12
