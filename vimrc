@@ -52,9 +52,9 @@ set relativenumber
 set number
 set backspace=2
 set background=dark
+set t_Co=256
 set termguicolors
 colorscheme gruvbox
-
 
 filetype plugin indent on
 set tabstop=4
